@@ -70,7 +70,7 @@ export default function () {
                         {/* Collapsible that allows employees to be updated. */}
                         <th><Collapsible trigger="Update Employee">
                                 <form onSubmit={handleUpdate}>
-                                    <input type="text" value={updateName} placeholder='New Name' onChange={(e) => setUpdateName(e.target.value)}></input>
+                                    <input type="text" value={updateName} placeholder='Employee Name' onChange={(e) => setUpdateName(e.target.value)}></input>
                                     <input type="text" value={updateValue} placeholder='New Value' onChange={(e) => setUpdateValue(e.target.value)}></input>
                                     <button type = "submit">Submit Changes</button>
                                 </form>
